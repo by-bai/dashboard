@@ -31,10 +31,10 @@ export default function App() {
                     <Bar data={nivoBarData} />
                 </div>
                 <div style={{ height: 500 }}>
-                    <Line data={nivoLineData} />
+                    <Pie data={nivoPieData} />
                 </div>
                 <div style={{ height: 500 }}>
-                    <Pie data={nivoPieData} />
+                    <Line data={nivoLineData} />
                 </div>
 
                 <h1 class='text-3xl font-extrabold text-purple-600'>
@@ -44,13 +44,13 @@ export default function App() {
                 <div></div>
 
                 <div style={{ height: 500 }}>
-                    <RechartsLine data={rechartsLineData} />
+                    <RechartsBar data={rechartsBarData} />
                 </div>
                 <div style={{ height: 500 }}>
                     <RechartsPie data={rechartsPieData} />
                 </div>
                 <div style={{ height: 500 }}>
-                    <RechartsBar data={rechartsBarData} />
+                    <RechartsLine data={rechartsLineData} />
                 </div>
 
                 <h1 class='text-3xl font-extrabold text-purple-600'>Victory</h1>
